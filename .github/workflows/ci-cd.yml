@@ -64,8 +64,8 @@ jobs:
           context: .
           push: true
           tags: |
-            akshayshettyy/fraud-shield:latest
-            akshayshettyy/fraud-shield:${{ github.sha }}
+            akshayshetty610/fraud-shield:latest
+            akshayshetty610/fraud-shield:${{ github.sha }}
 
   # ── Stage 3: Deploy ──────────────────────────────────────────────────────────
   deploy:
