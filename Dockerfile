@@ -18,9 +18,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./src/
 COPY app.py .
 
-# ── Copy model artifacts ───────────────────────────────────────────────────────
-COPY notebooks/models/ ./models/
-
 # ── Set artifact path env variable ────────────────────────────────────────────
 ENV ARTIFACTS_DIR=models/
 
